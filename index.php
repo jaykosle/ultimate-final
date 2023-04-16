@@ -99,9 +99,9 @@
     <div class="container">
         <div class="row">
              <div>
-                <h1 class="text-center"><strong> Empowering Communities with Crime Management Solutions</strong></h1>
+                <h1 class="text-center"><strong> Empowering Communities with Crime Management Solutions!</strong></h1><br><br>
                 
-                <p class="text-center"><h3> This website provides citizens with tools to report crime online and access data visualizations that help them stay informed about criminal activity in their community.
+                <p class="text-center"><h3 class="text-center"> This website provides citizens with tools to report crime online and access data visualizations that help them stay informed about criminal activity in their community.
                     </h3>
                 </p>
                 </div>
@@ -109,14 +109,13 @@
 </div>
     </div>
     <div id="piechart" style="width: 100%; height: 500px;"></div>
-            <div class="text-center">
+            <div class="text-center"><br><br>
                 <h1>The Pie Chart Shows Motor vehicle Theft</h1>
-                <p>Our website has published a pie chart depicting the number of car thefts that have occurred in the city over the past year. The chart shows that out of a total of 1000 car thefts, 60% of them were stolen from public places such as parking lots and streets, while 25% were stolen from residential areas, and the remaining 15% were stolen from commercial areas.
-
-These statistics serve as a stark reminder of the importance of taking precautions to protect our vehicles from theft, such as parking in well-lit areas and investing in anti-theft devices. We hope that by providing this information, we can raise awareness about the issue of car theft and help people take steps to keep their vehicles safe.  </p><br>
+                <h4><p>"Our published pie chart reveals that 60% of 1000 car thefts occurred in public places, emphasizing the need for increased precautions to protect vehicles from theft."</p></h4><br>
 <div id="chart_div" style="width: 100%; height: 500px;"></div>
     <div class="text-center">
-        <h1>Location of police stations</h1><br><br>
+        <h1>Location of police stations</h1><br>
+        <h4>Info --> Your GPS is tracked & nearby police outpost shown in 5KM radius</h4><br>
         <iframe src="https://www.google.com/maps/d/embed?mid=1JzRn_YZBp23qZ8utdHAGgnZ6m_JwIUY&hl=en&ehbc=2E312F"  
             width="1000" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>  
