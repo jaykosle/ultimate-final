@@ -69,7 +69,7 @@
     <div class="container">
         <div class="row">
              <div>
-                <h1 class="text-center">Welcome to Police Database</h1>
+                <h1 class="text-center">Welcome to the Police Database</h1>
                 
                 <p class="text-center">Welcome to our website, a platform that is dedicated to presenting criminal data in a visually appealing and informative way through beautiful infographics.
                      We believe that by presenting criminal data in a clear and concise manner, we can help citizens better understand the scope and severity of criminal activity in their communities. 
