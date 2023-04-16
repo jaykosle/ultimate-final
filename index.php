@@ -132,14 +132,15 @@
         </div>
 </div>
     </div>
+    <div class="text-center"><br><br>
+                <h1>Crime Data Infographics/Visualization</h1><br>
+               
     <div id="chart_div1" style="width: 100%; height: 500px;"></div><br>
-    <div id="piechart" style="width: 100%; height: 500px;"></div>
-            <div class="text-center"><br><br>
-                <h1>The Pie Chart Shows Motor vehicle Theft</h1>
-                <h4><p>"Our published pie chart reveals that 60% of 1000 car thefts occurred in public places, emphasizing the need for increased precautions to protect vehicles from theft."</p></h4><br>
+    <div id="piechart" style="width: 100%; height: 500px;"></div><br>
+            
 <div id="chart_div" style="width: 100%; height: 500px;"></div>
     <div class="text-center">
-        <h1>Location of police stations</h1><br>
+        <h1>Location of police outposts</h1><br>
         <h4>Info --> Your GPS is tracked & nearby police outpost shown in 5KM radius</h4><br>
         <iframe src="https://www.google.com/maps/d/embed?mid=1JzRn_YZBp23qZ8utdHAGgnZ6m_JwIUY&hl=en&ehbc=2E312F"  
             width="1000" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>

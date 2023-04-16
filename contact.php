@@ -5,10 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact for police authurity</title>
-    <link rel="stylesheet" href="webdemo.css">
+    <link rel="stylesheet" href="aman.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Anuphan:wght@600&display=swap" rel="stylesheet">
+<style>
+       body{
+        background-image:url('contact-img.jpg');
+        background-repeat:no-repeat;
+        background-attachment:fixed;
+        background-size:100% 100%;
+       }
+
+
+    </style>
 </head>
 <body>
     <div class="us">
@@ -50,7 +60,7 @@
                     <table>
                         <tr>
                             <td> Email</td>
-                            <td>contactus@gmail.com</td>
+                            <td>police@gmail.com</td>
                         </tr>
                         <tr>
                             <td>phone</td>
