@@ -42,6 +42,36 @@
         chart.draw(data, options);
       }
     </script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['corechart']});
+      google.charts.setOnLoadCallback(drawVisualization);
+
+      function drawVisualization() {
+        // Some raw data (not necessarily accurate)
+        var data = google.visualization.arrayToDataTable([
+          ['Month', 'Bhubaneswar', 'dehli', 'Mumbai', 'Goa', 'Bhopal', 'Average'],
+          ['2017/18',  165,      938,         522,             998,           450,      614.6],
+          ['2018/19',  135,      1120,        599,             1268,          288,      682],
+          ['2019/20',  157,      1167,        587,             807,           397,      623],
+          ['2020/21',  139,      1110,        615,             968,           215,      609.4],
+          ['2021/22',  136,      691,         629,             1026,          366,      569.6]
+        ]);
+
+        var options = {
+          title : 'Crime Rate in different cities of last five year',
+          vAxis: {title: 'Criminal cases per milion people'},
+          hAxis: {title: 'year'},
+          seriesType: 'bars',
+          series: {5: {type: 'line'}}
+        };
+
+        var chart = new google.visualization.ComboChart(document.getElementById('chart_div'));
+        chart.draw(data, options);
+      }
+    </script>
+
+
     <style>
        body{
         background-image:url('home page bg.jpg');
@@ -69,16 +99,14 @@
     <div class="container">
         <div class="row">
              <div>
-                <h1 class="text-center"><strong> Welcome to the Police Database</strong></h1>
+                <h1 class="text-center"><strong> Empowering Communities with Crime Management Solutions</strong></h1>
                 
-                <p class="text-center"><h3> Welcome to our website, a platform that is dedicated to presenting criminal data in a visually appealing and informative way through beautiful infographics.
-                     We believe that by presenting criminal data in a clear and concise manner, we can help citizens better understand the scope and severity of criminal activity in their communities. 
-                     In addition, we provide citizens with the ability to report crimes, offer suggestions to law enforcement, and enable police to easily track criminal records to help solve cases more efficiently.
-                      Our goal is to provide a comprehensive resource for both citizens and law enforcement to help create safer communities for all.
-                      </h3>
+                <p class="text-center"><h3> This website provides citizens with tools to report crime online and access data visualizations that help them stay informed about criminal activity in their community.
+                    </h3>
                 </p>
                 </div>
         </div>
+</div>
     </div>
     <div id="piechart" style="width: 100%; height: 500px;"></div>
             <div class="text-center">
@@ -86,6 +114,7 @@
                 <p>Our website has published a pie chart depicting the number of car thefts that have occurred in the city over the past year. The chart shows that out of a total of 1000 car thefts, 60% of them were stolen from public places such as parking lots and streets, while 25% were stolen from residential areas, and the remaining 15% were stolen from commercial areas.
 
 These statistics serve as a stark reminder of the importance of taking precautions to protect our vehicles from theft, such as parking in well-lit areas and investing in anti-theft devices. We hope that by providing this information, we can raise awareness about the issue of car theft and help people take steps to keep their vehicles safe.  </p><br>
+<div id="chart_div" style="width: 100%; height: 500px;"></div>
     <div class="text-center">
         <h1>Location of police stations</h1><br><br>
         <iframe src="https://www.google.com/maps/d/embed?mid=1JzRn_YZBp23qZ8utdHAGgnZ6m_JwIUY&hl=en&ehbc=2E312F"  
