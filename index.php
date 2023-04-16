@@ -44,7 +44,7 @@
     </script>
     <style>
        body{
-        background-image:url('bg1.jpg');
+        background-image:url('home page bg.jpg');
         background-repeat:no-repeat;
         background-attachment:fixed;
         background-size:100% 100%;
@@ -69,12 +69,13 @@
     <div class="container">
         <div class="row">
              <div>
-                <h1 class="text-center">Welcome to the Police Database</h1>
+                <h1 class="text-center"><strong> Welcome to the Police Database</strong></h1>
                 
-                <p class="text-center">Welcome to our website, a platform that is dedicated to presenting criminal data in a visually appealing and informative way through beautiful infographics.
+                <p class="text-center"><h3> Welcome to our website, a platform that is dedicated to presenting criminal data in a visually appealing and informative way through beautiful infographics.
                      We believe that by presenting criminal data in a clear and concise manner, we can help citizens better understand the scope and severity of criminal activity in their communities. 
                      In addition, we provide citizens with the ability to report crimes, offer suggestions to law enforcement, and enable police to easily track criminal records to help solve cases more efficiently.
                       Our goal is to provide a comprehensive resource for both citizens and law enforcement to help create safer communities for all.
+                      </h3>
                 </p>
                 </div>
         </div>
@@ -88,7 +89,7 @@ These statistics serve as a stark reminder of the importance of taking precautio
     <div class="text-center">
         <h1>Location of police stations</h1><br><br>
         <iframe src="https://www.google.com/maps/d/embed?mid=1JzRn_YZBp23qZ8utdHAGgnZ6m_JwIUY&hl=en&ehbc=2E312F"  
-            width="2000" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            width="1000" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>  
 
     
@@ -155,7 +156,9 @@ District Police Profile">West Singhbhum</a></li>
 </div> </div> </div>
  </li>
  <footer>
-       <div class="text-left ">
+       
+ 
+        <div class="footer_navigation ">
           
           <li><a href="index.php">Home</a></li>
             <li><a href="">Helpline</a></li>
