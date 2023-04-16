@@ -70,6 +70,30 @@
         chart.draw(data, options);
       }
     </script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+     <script type="text/javascript">
+      google.charts.load('current', {'packages':['corechart']});
+      google.charts.setOnLoadCallback(drawChart);
+
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+          ['Year', 'Ranchi', 'patna'],
+          ['2013',  1000,      400],
+          ['2014',  1170,      460],
+          ['2015',  660,       1120],
+          ['2016',  1030,      540]
+        ]);
+
+        var options = {
+          title: 'Crimes in patna and ranchi',
+          hAxis: {title: 'Year',  titleTextStyle: {color: '#333'}},
+          vAxis: {title: "no. of crimes in two cities",titleTextStyle: {color: '#333'}}
+        };
+
+        var chart = new google.visualization.AreaChart(document.getElementById('chart_div1'));
+        chart.draw(data, options);
+      }
+    </script>
 
 
     <style>
@@ -90,7 +114,7 @@
           
         <ul>
             <li><a href="index.php">Home</a></li>
-            <li><a href="">Helpline</a></li>
+            <li><a href="help.php">Helpline</a></li>
             <li><a href="contact.php">Contact Us</a></li>
             <li><a href="login.php" class="btn btn-success">Login</a></li>
         </ul>
@@ -108,6 +132,7 @@
         </div>
 </div>
     </div>
+    <div id="chart_div1" style="width: 100%; height: 500px;"></div><br>
     <div id="piechart" style="width: 100%; height: 500px;"></div>
             <div class="text-center"><br><br>
                 <h1>The Pie Chart Shows Motor vehicle Theft</h1>

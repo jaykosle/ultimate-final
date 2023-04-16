@@ -32,7 +32,7 @@
                             <div class="input-row">
                                 <div class="input-group">
                                     <label>Email</label>
-                                    <input type="email" placeholder="bariksubham909@gmail.com">
+                                    <input type="email" placeholder="example@gmail.com">
                                 </div>
                                 <div class="input-group">
                                     <label>subject</label>
